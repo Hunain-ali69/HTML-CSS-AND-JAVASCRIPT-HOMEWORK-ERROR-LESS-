@@ -1,0 +1,47 @@
+.{
+    margin-top: 0;
+    background: #ffffff;
+}
+.menu-title{
+    text-align: center;
+}
+.menu-tiles{
+    background: lightgreen;
+    border: 2px ;
+}
+#chiken{
+    border-bottom: 2px solid black;
+}
+#beef{
+    border-bottom: 2px solid black;
+}
+#shushi{
+    border-bottom: 2px solid black;   
+}
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+    .menu-tiles{
+        background: lightgreen;
+        border: 2px ;
+        width: 20%;
+        text-align: center;
+        padding:20px;
+        position: absolute;
+        margin-left: 40%;
+    }
+}
+@media(max-width:768){
+    html{
+        font-size: 45%;
+    }
+        .menu-tiles{
+            background: lightgreen;
+            border: 2px ;
+            width: 20%;
+            text-align: center;
+            padding:20px;
+        }
+    
+}
